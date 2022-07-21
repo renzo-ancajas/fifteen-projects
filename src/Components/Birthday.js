@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import data from '../Data/data';
-import List from '../Data/List';
+import data from '../Data/birthdayData';
+import List from './BirthdayList';
 
 import '../Styles/Birthday.css';
 
