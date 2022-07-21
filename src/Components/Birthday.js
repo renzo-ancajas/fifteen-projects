@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import data from '../Data/data';
 import List from '../Data/List';
 
-import '../Data/Birthday.css';
+import '../Styles/Birthday.css';
 
 function App() {
     const [people, setPeople] = useState(data)
