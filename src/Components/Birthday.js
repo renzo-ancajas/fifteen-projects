@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import data from './data';
-import List from './List';
+import data from '../Data/data';
+import List from '../Data/List';
 
-import './Birthday.css';
+import '../Data/Birthday.css';
 
 function App() {
     const [people, setPeople] = useState(data)
